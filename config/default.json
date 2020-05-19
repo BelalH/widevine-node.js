@@ -1,0 +1,7 @@
+{
+    "sign_key": "hex value",
+    "sign_iv": "hex value",
+    "signer": "string",
+    "keyServerUrl": "URL provided from widevine"
+    
+}

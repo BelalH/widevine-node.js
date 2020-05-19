@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/BelalH/widevine-node.js/issues"
   },
-  "homepage": "https://github.com/BelalH/widevine-node.js#readme"
+  "homepage": "https://github.com/BelalH/widevine-node.js#readme",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "config": "^3.3.1",
+    "js-base64": "^2.5.2",
+    "uuid": "^8.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
 }
